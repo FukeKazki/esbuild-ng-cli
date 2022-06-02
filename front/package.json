@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "esbuild": "esbuild src/main.ts --bundle --outfile=dist/main.js --loader:.html=text --minify"
+    "esbuild": "node build.mjs"
   },
   "private": true,
   "dependencies": {
